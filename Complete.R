@@ -11,6 +11,8 @@ ts.plot(bd$turb)
 ts.plot(bd$sal)
 #bd$diat[is.na(bd$diat)] <- median(bd$diat,na.rm = T)
 
+# ce code permet de faire du traitement des données manquantes sur Shiny.
+
 ###### Scenario de completion
 # La methode de remplacement par la moyenne
 install.packages("zoo")
