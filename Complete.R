@@ -10,7 +10,7 @@ ts.plot(bd$diat)
 ts.plot(bd$turb)
 ts.plot(bd$sal)
 #bd$diat[is.na(bd$diat)] <- median(bd$diat,na.rm = T)
-
+# AZ TTP
 ###### Scenario de completion
 # La methode de remplacement par la moyenne
 install.packages("zoo")
